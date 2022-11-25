@@ -1,0 +1,32 @@
+{
+    "actionButtons": {
+        "defaultColor": "#FFFFFF",
+        "loadNpmCommands":false,
+        "reloadButton":"↻",
+        "commands": [
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "♻️ Build Projekt",
+                "color": "yellow",
+                "singleInstance": true,
+                // Команда яка виконається при кліку на actionButton (наприклад echo ${file})
+                "command": "make",           
+            },
+            {
+                "cwd": "${workspaceFolder}",
+                "singleInstance": true,
+                "name": "🔼 Flash hex",
+                "color": "white",
+
+                "command": "make flash",
+            },
+            {
+				"name": "🪟 Split editor",
+				"color": "orange",
+				"useVsCodeApi": true,
+				"command": "workbench.action.splitEditor"
+		     }
+        ]
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,0 +1,38 @@
+{
+    "actionButtons": {
+        "defaultColor": "#FFFFFF", // Can also use string color names.
+        "loadNpmCommands":false, // Disables automatic generation of actions for npm commands.
+        "reloadButton":"↻", // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
+        "commands": [
+            {
+                "cwd": "${workspaceFolder}", 	
+                "name": "♻️ Build Projekt",
+                "color": "yellow",
+                "command": "make",
+            },
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "🔼 Flash hex",
+                "color": "orange",
+                "command": "make flash",
+            },
+            {
+                "name": "$(split-horizontal) Split editor",
+                "color": "white",
+                "useVsCodeApi": true,
+                "command": "workbench.action.splitEditor"
+            }
+        ]
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "operations_for_led_display.h": "c",
+        "program_data.h": "c",
+        "button_handler.h": "c",
+        "effect_for_leds.h": "c",
+        "displaying_information_about_effect_on_led_display.h": "c",
+        "initialization_of_i2c_bus_interface.h": "c",
+        "initialization_of_led_display.h": "c",
+        "atmega328_data_initialization.h": "c"
+    }
+}

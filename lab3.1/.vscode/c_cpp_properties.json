@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "vscode_avr_c_properties",
+            "includePath": [
+                "${workspaceFolder}/**",
+                //"/usr/lib/avr/include",
+                "C:\\bin\\WinAVR-20100110\\avr\\include"
+                //"C:\\bin\\MinGW\\include"
+            ],
+            "defines": [
+                "__AVR_ATmega168P__"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x86",
+            //"compilerPath": "avr-gcc",
+            "compilerPath": "\"C:\\bin\\WinAVR-20100110\\bin\\avr-gcc.exe\"",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

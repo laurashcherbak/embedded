@@ -1,0 +1,24 @@
+<circuit type="simulide_0.1">
+ 
+atmega328-6: 
+<item itemtype="AVR" vflip="1" id="atmega328-6" x="-612" rotation="0" valLabely="0" valLabelx="0" labelrot="0" hflip="1" objectName="atmega328-6" valLabRot="0" y="-404" labelx="0" program="test_blink/build/test_blink.hex" labely="-20" Mhz="16" Show_id="true"/>
+ 
+Led-3: 
+<item vflip="1" valLabelx="0" labelx="-16" itemtype="Led" objectName="Led-3" Show_id="false" rotation="0" hflip="1" Color="0" id="Led-3" threshold="2.4" valLabely="0" labely="-24" y="-292" Resistance="0.6" MaxCurrent="0.03" labelrot="0" valLabRot="0" x="-500" Grounded="false"/>
+ 
+Resistor-2: 
+<item vflip="1" valLabelx="-16" labelx="-12" itemtype="Resistor" objectName="Resistor-2" Show_id="false" rotation="0" hflip="1" Unit=" Ω" id="Resistor-2" valLabely="6" labely="-24" y="-292" Resistance="100" Show_res="true" labelrot="0" valLabRot="0" x="-428"/>
+ 
+Ground (0 V)-1: 
+<item itemtype="Ground" vflip="1" id="Ground (0 V)-1" x="-388" rotation="0" valLabely="0" valLabelx="0" labelrot="0" hflip="1" objectName="Ground (0 V)-1" valLabRot="0" y="-252" labelx="-16" labely="-24" Show_id="false"/>
+ 
+Connector-4: 
+<item vflip="1" startpinid="Led-3-rPin" valLabelx="0" labelx="-16" itemtype="Connector" objectName="Connector-4" Show_id="false" rotation="0" hflip="1" enodeid="enode-4" pointList="-484,-292,-444,-292" id="Connector-4" valLabely="0" labely="-24" y="-292" labelrot="0" endpinid="Resistor-2-lPin" valLabRot="0" x="-484"/>
+ 
+Connector-5: 
+<item vflip="1" startpinid="Resistor-2-rPin" valLabelx="0" labelx="-16" itemtype="Connector" objectName="Connector-5" Show_id="false" rotation="0" hflip="1" enodeid="enode-5" pointList="-412,-292,-388,-292,-388,-268" id="Connector-5" valLabely="0" labely="-24" y="-292" labelrot="0" endpinid="Ground (0 V)-1-Gnd" valLabRot="0" x="-412"/>
+ 
+Connector-7: 
+<item vflip="1" startpinid="atmega328-6-PB5" valLabelx="0" labelx="-16" itemtype="Connector" objectName="Connector-7" Show_id="false" rotation="0" hflip="1" enodeid="enode-7" pointList="-572,-324,-516,-324,-516,-292" id="Connector-7" valLabely="0" labely="-24" y="-324" labelrot="0" endpinid="Led-3-lPin" valLabRot="0" x="-572"/>
+ 
+</circuit>
